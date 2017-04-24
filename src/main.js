@@ -1,7 +1,9 @@
 import Icon from './components/icon'
+import Card from './components/card'
 
 const ikaros = {
-  Icon
+  Icon,
+  Card
 }
 
 const install = function (Vue, opts) {

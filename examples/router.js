@@ -9,6 +9,11 @@ export default new Router({
       path: '/icon',
       name: 'icon',
       component: require('./pages/icon')
+    },
+    {
+      path: '/card',
+      name: 'card',
+      component: require('./pages/card')
     }
   ]
 })
