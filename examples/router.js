@@ -14,6 +14,11 @@ export default new Router({
       path: '/card',
       name: 'card',
       component: require('./pages/card')
+    },
+    {
+      path: '/button',
+      name: 'button',
+      component: require('./pages/button')
     }
   ]
 })
