@@ -19,6 +19,11 @@ export default new Router({
       path: '/button',
       name: 'button',
       component: require('./pages/button')
+    },
+    {
+      path: '/breadcrumb',
+      name: 'breadcrumb',
+      component: require('./pages/breadcrumb')
     }
   ]
 })

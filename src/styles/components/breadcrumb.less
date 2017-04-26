@@ -1,0 +1,21 @@
+@breadcrumb-prefix-cls: ~"@{css-prefix}-breadcrumb";
+@breadcrumb-item-prefix-cls: ~"@{breadcrumb-prefix-cls}-item";
+
+.@{breadcrumb-item-prefix-cls} {
+  &-link {
+    &:hover, &:focus, &:active {
+      i {
+        color: @link-color;
+      }
+    }
+  }
+
+  &-current {
+    font-weight: bold;
+  }
+
+  &-separator {
+    margin: 0 8px;
+    color: #d7dde4;
+  }
+}
