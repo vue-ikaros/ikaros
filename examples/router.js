@@ -24,6 +24,11 @@ export default new Router({
       path: '/breadcrumb',
       name: 'breadcrumb',
       component: require('./pages/breadcrumb')
+    },
+    {
+      path: '/alert',
+      name: 'alert',
+      component: require('./pages/alert')
     }
   ]
 })

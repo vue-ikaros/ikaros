@@ -2,13 +2,15 @@ import Icon from './components/icon'
 import Card from './components/card'
 import Button from './components/button'
 import Breadcrumb from './components/breadcrumb'
+import Alert from './components/alert'
 
 const ikaros = {
   Icon,
   Card,
   Button,
   Breadcrumb,
-  BreadcrumbItem: Breadcrumb.item
+  BreadcrumbItem: Breadcrumb.item,
+  Alert
 }
 
 const install = function (Vue, opts) {

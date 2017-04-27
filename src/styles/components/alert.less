@@ -1,0 +1,84 @@
+@alert-prefix-cls: ~"@{css-prefix}-alert";
+
+.@{alert-prefix-cls} {
+  position: relative;
+  padding: 8px 48px 8px 38px;
+  border-radius: 4px;
+  color: @font-color-base;
+  font-size: 12px;
+  line-height: @line-height-base;
+  margin-bottom: 10px;
+  font-size: @font-size-base;
+  
+  p {
+    margin: 0px;
+  }
+  &-success {
+    border: 1px solid #cfefdf;
+    background-color: #ebf8f2;
+    .ikaros-icon {
+      color: #00a854;
+    }
+  }
+
+  &-info {
+    border: 1px solid #d2eafb;
+    background-color: #ecf6fd;
+    .ikaros-icon {
+      color: #108ee9;
+    }
+  }
+
+  &-warning {
+    border: 1px solid #fff3cf;
+    background-color: #fffaeb;
+    .ikaros-icon {
+      color: #ffbf00;
+    }
+  }
+
+  &-error {
+    border: 1px solid #fcdbd9;
+    background-color: #fef0ef;
+    .ikaros-icon {
+      color: #f04134;
+    }
+  }
+
+  &-no-icon {
+    padding: 8px 48px 8px 16px;
+  }
+
+  &-icon {
+    position: absolute;
+    left: 16px;
+    top: 8px;
+    font-size: @font-size-large;
+  }
+
+
+  &-with-description {
+    padding: 16px 16px 16px 60px;
+    i {
+      position: absolute;
+      font-size: 24px;
+    }
+  }
+
+  &-message {
+    color: rgba(0,0,0,.85);
+  }
+
+  &-description {
+    font-size: @font-size-small;
+    padding-top: 5px;
+  }
+
+  &-close {
+    position: absolute;
+    right: 10px !important;
+    top: 5px !important;
+    font-size: @font-size-small;
+    cursor: pointer;
+  }
+}
