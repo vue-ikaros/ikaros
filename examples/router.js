@@ -29,6 +29,11 @@ export default new Router({
       path: '/alert',
       name: 'alert',
       component: require('./pages/alert')
+    },
+    {
+      path: '/back-top',
+      name: 'back-top',
+      component: require('./pages/back-top')
     }
   ]
 })
