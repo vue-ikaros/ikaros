@@ -11,5 +11,6 @@ export default {
 </script>
 <style lang="less">
 @import '../src/styles/index.less';
+// @import '../lib/ikaros.css';
 
 </style>
